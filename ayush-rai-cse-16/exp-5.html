@@ -1,36 +1,87 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Experiment 4</title>
+    <title>Document</title>
 </head>
+
 <body>
-    <h1>Output :</h1>
- <form action="/submit_form" method="post" style="border: 2px solid #333; padding:20px; border-radius: 10px; width: 400px; margin: 0 auto; text-align:center;">
-   <h2 style="text-align: center;">Hotel Room Booking Form</h2>
-    <label for="fullname">Full Name:</label>
-    <input type="text" id="fullname" name="fullname" required><br><br>
-    <label for="Email">Email:</label>
-    <input type="text" id="Email" name="Email" required><br><br>
-    <label for="Phone">Phone:</label>
-    <input type="text" id="Phone" name="Phone" required><br><br>
-    <label for="Check-in-Date">Check-in-Date:</label>
-    <input type="Date" id="Check-in-Date" name="Check-in-Date" required><br><br>
-    <label for="Check-out-Date">Check-out-Date:</label>
-    <input type="Date" id="Check-out-Date" name="Check-out-Date" required><br><br>
-    <label for="Room-Type">Room-Type:</label>
-    <select id="Room-Type" name="Room-Type" required>
-        <option value="Single Room">Single Room</option>
-        <option value="Double Room">Double Room</option>
-        <option value="Triple Room">Triple Room</option>
-    </select> <br><br>
-    <label for="Number of Guests">Number of Guests</label>
-    <input type="number" id="Number of Guests" name="Number of Guests" required><br><br>
-    <label for="Special Requests">Special Requests:</label><br>
-    <textarea id="Special Requests" name="Special Requests" rows="4" cols="50"></textarea><br><br>
-    <input type="submit" value="Book Now" name="Book Now">
-    <input type="reset" value="Reset Form" name="Reset Form">
- </form>
+    <table border="2" cellpadding="20" cellspacing="0" align="center">
+        <tr>
+            <td>
+                <table border="1" cellpadding="10" cellspacing="0" align="center">
+                    <caption> College Timetable - CSE Department</caption>
+                    <tr>
+                        <th> Day / Time </th>
+                        <th> 09:00-10:00</th>
+                        <th> 10:00-11:00</th>
+                        <th> 11:00-12:00</th>
+                        <th> 12:00-01:00</th>
+                        <th> 01:00-02:00</th>
+                        <th> 02:00-03:00</th>
+                        <th> 03:00-04:00</th>
+                    </tr>
+                    <tr align="center">
+                        <td> Monday </td>
+                        <td rowspan="2"> Mathematics </td>
+                        <td> English </td>
+                        <td rowspan="3"> Physics </td>
+                        <td> Break </td>
+                        <td colspan="2"> Computer Lab </td>
+                        <td> Sports </td>
+                    </tr>
+                    <tr align="center">
+                        <td> Tuesday </td>
+                        <td> C Programming </td>
+                        <td> Break </td>
+                        <td colspan="2"> Electronic Lab </td>
+                        <td> Library </td>
+                    </tr>
+                    <tr align="center" aria-rowspan="3">
+                        <td> Wednesday </td>
+                        <td> Mathematics </td>
+                        <td> English </td>
+                        <td> Break </td>
+                        <td> Computer Network </td>
+                        <td colspan="3">
+                            <table border="1" cellpadding="5" cellspacing="0">
+                                <tr>
+                                    <th colspan="2"> Lab Session 1 </th>
+                                </tr>
+                                <tr>
+                                    <td> Batch A </td>
+                                    <td> Batch B </td>
+                                </tr>
+                                <tr>
+                                    <td> Batch B </td>
+                                    <td> OS Lab </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td> Thursday </td>
+                        <td colspan="2"> Workshop </td>
+                        <td> Physics </td>
+                        <td> Break </td>
+                        <td> Mathematics </td>
+                        <td> English </td>
+                        <td> Seminar </td>
+                    </tr>
+                    <tr align="center">
+                        <td> Friday </td>
+                        <td> Computer Network </td>
+                        <td> English </td>
+                        <td> Physics </td>
+                        <td> Break </td>
+                        <td colspan="3"> Project Work </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
 </body>
+
 </html>
